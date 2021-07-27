@@ -11,7 +11,7 @@ Response is Covid-19 data for all provinces/states in a country.
 The solution merges confirmed, deaths, recovered from all provinces together and collates them at the country level. 
 
 
-****TO EXECUTE PROGRAM*****
+***TO EXECUTE PROGRAM***
 
 
 1. Install dependencies:
@@ -27,4 +27,6 @@ python3 covid_data_merger.py
 
 based on what python is installed on the machine. 
 
+
+Note: The rows in the response.xlsx is not appened to on subsequent runs of the program for the same ISO country code, this can be improved further by reading the response.xlsx and mergeing with response data first and then writing back the result. Consequences of large xls file read and write would be that there will be a bit of performance hit if large requests are processed. 
 
