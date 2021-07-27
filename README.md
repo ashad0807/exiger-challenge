@@ -20,7 +20,10 @@ The solution merges confirmed, deaths, recovered from all provinces together and
    
    
    Install dependencies:
-       pip install -r requirements.txt1. Install all the needed dependencies as given in requirements.txt
+       
+       pip install -r requirements.txt1. 
+       
+       Installs all the needed dependencies as given in requirements.txt
 
 **2**
  
@@ -29,6 +32,7 @@ The solution merges confirmed, deaths, recovered from all provinces together and
 
     python covid_data_merger.py 
 or
+    
     python3 covid_data_merger.py 
 
 based on what python is installed on the machine. 
